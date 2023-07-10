@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Bulky Book Web App UI tests ">
+    <test name="CustomerTestRegression">
+        <classes>
+            <class name="ui.runner.CustomerTestRunner"/>
+        </classes>
+    </test>
+    <test name="AdminTestRegression">
+        <classes>
+            <class name="ui.runner.AdminTestRunner"/>
+        </classes>
+    </test>
+</suite>
